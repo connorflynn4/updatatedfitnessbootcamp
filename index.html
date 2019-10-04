@@ -22,7 +22,7 @@ data-target="#navbarResponsive">
 <div class="collapse navbar-collapse" id="navbarResponsive">
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
-	<a class="nav-link" href="#">Home</a>
+	<a class="nav-link" href="#home">Home</a>
 </li>
 
 <li class="nav-item">
@@ -47,11 +47,49 @@ data-target="#navbarResponsive">
 
 </nav>
 
+<!---Start of the carousel-->
+<div id="carouselIndicators" class="carousel slide" data-ride="carousel"
+data-interval="6000">
+<ol class="carousel-indicators">
+	<li data-target="#carouselIndicators" data-slide-to="0"
+	class="active"></li>
+	<li data-target="#carouselIndicators" data-slide-to="1"></li>
+	<li data-target="#carouselIndicators" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner" roll="listbox">
+<div class="carousel-item active" style="background-image: url(img/beach1.jpg);">
+<div class="carousel-caption text-center">
+	<h1>The Tropical Fitness Bootcamp</h1>
+	<h3>Get Fit in Paradise</h3>
+	<a class="btn btn-outline-light btn-lg" href="#discount">Get Started
+
+	</a>
+</div>
+</div>
+<!-- image2 -->
+<div class="carousel-item" style="background-image: url(img/beach2.jpg);"></div>
+<!-- image3 -->
+<div class="carousel-item" style="background-image: url(img/beach3.jpg);"></div>
+</div>
+</div>
+<!-- buttons -->
+<a href="#carouselIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+</a>
+
+<a href="#carouselIndicators" class="carousel-control-next" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	</a>
+	
 
 </div>
 
-<div id="discount">
-
+<div id="discount" class="offset">
+<div class="col-12 narrow text-center">
+	<h1>Get Your Discount Code Here</h1>
+	<p class="lead">For A Limited Time Only, Use The Following Code For 20% Off Your First Fitness Bootcamp</p>
+	<button type="button" class="btn btn-lg btn-danger">CONNORFLYNN20</button>
+</div>
 
 	
 	</div>
