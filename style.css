@@ -77,7 +77,7 @@ body{
   padding-bottom: 1rem;
 }
 
-btn-lg{
+.btn-lg{
   border-width: medium;
   border-radius: 0;
   font-size: 1rem;
@@ -161,8 +161,37 @@ hr.socket{
   border-top: .2rem solid #666b75;
   width: 100%;
 }
+
+
 /* Media Queries */
 
+@media (max-width: 767px){
+  
+  
+.carousel-caption h1{
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding-bottom: .5rem;
+}
+
+  .carousel-caption h3{
+    font-size: 1.1rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg{
+    
+    font-size: 1rem;
+  }
+
+  .narrow h1{
+    font-size: 1.5rem;
+  }
+  p.lead{
+    font-size: 1.0rem;
+  }
+
+}
 /* Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
