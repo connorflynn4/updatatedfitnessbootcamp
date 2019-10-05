@@ -13,6 +13,13 @@ body{
   padding-top: 2rem;
 }
 
+.offset:before{
+  height: 3.8rem;
+  margin-top: -3.8rem;
+  content: "";
+  display: block;
+}
+
 
 .btn-danger{
   margin-top: 1.5rem;
@@ -50,10 +57,110 @@ body{
   height: 100vh;
 }
 
+.carousel-caption {
+  position: absolute;
+  top: 38%;
+  text-transform: uppercase;
+  width: 100%;
+  right: 0;
+  left: 0; 
+}
 
+.carousel-caption h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
 
+.carousel-caption h3{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
 
+btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1rem;
+}
 
+/* locations */
+.jumbotron{
+  border-radius: 0;
+  padding: 3rem 0 2rem;
+  margin-bottom: 0;
+}
+
+h3.heading{
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.9rem;
+}
+.heading-underline{
+  width: 4rem;
+  height: .2rem;
+  background-color: #E42520;
+  margin: 0 auto 2rem;
+}
+
+.location img{
+  max-width: 100%;
+  transition: transform .5s;
+  /* height: 400px;
+  width: 240px; */
+ 
+}
+
+.location img:hover{
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+.location{
+  overflow:hidden;
+}
+
+.row.no-padding [class*=col-]{
+  padding: 0;
+} 
+
+/* trainers */
+.card{
+  margin: 2rem;
+}
+
+/* contact */
+
+footer{
+  background-color: #40474e;
+  color: #fff;
+  padding: 2rem 0 3rem;
+  margin-top: 1.1rem;
+  
+}
+
+footer img{
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer svg.svg-inline--fa{
+  font-size: 1.5rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover{
+  color: #E42520;
+}
+
+hr.socket{
+  border-top: .2rem solid #666b75;
+  width: 100%;
+}
 /* Media Queries */
 
 /* Extra small (xs) devices (portrait phones, less than 576px)
